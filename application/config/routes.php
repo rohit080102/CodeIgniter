@@ -51,7 +51,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 // $route['default_controller'] = 'welcome';
 // $route['default_controller'] = 'NumberCheck';
-$route['default_controller'] = 'DivisibilityCheck';
-
+// $route['default_controller'] = 'DivisibilityCheck';
+// $route['default_controller'] = 'fruits';
+// $route['default_controller'] = 'StringLength';
+// $route['default_controller'] =  'WordCount';
+// $route['default_controller'] =  'StringFunctions';
+$route['default_controller'] =  'AnimalController';
+// $route['default_controller'] =  'CarController';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
