@@ -54,19 +54,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 // $route['default_controller'] = 'NumberCheck';
 // $route['default_controller'] = 'DivisibilityCheck';
-// $route['default_controller'] = 'fruits';
-// $route['default_controller'] = 'StringLength';
-// $route['default_controller'] =  'WordCount';
-// $route['default_controller'] =  'StringFunctions';
-// $route['default_controller'] =  'AnimalController';
-// $route['default_controller'] =  'CarController';
 // $route['default_controller'] = 'DayName';
 // $route['default_controller'] = 'GradeEvaluator';
 // $route['default_controller'] = 'SumNaturalNumbers';
 // $route['default_controller'] = 'MultiplicationTable';
 // $route['default_controller'] = 'FactorialCalculator';
 // $route['default_controller'] = 'FibonacciSeries';
-$route['default_controller'] = 'StudentList';
+// $route['default_controller'] = 'StudentList';
+// $route['default_controller'] = 'fruits';
+// $route['default_controller'] = 'StringLength';
+// $route['default_controller'] =  'WordCount';
+// $route['default_controller'] =  'StringFunctions';
+$route['default_controller'] =  'AnimalController';
+// $route['default_controller'] =  'CarController';
+
 
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

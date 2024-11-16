@@ -7,6 +7,8 @@ class AnimalController extends CI_Controller {
         $this->load->helper('url');
     }
     public function index() {
+		require_once APPPATH . 'models/Animal.php';
+        require_once APPPATH . 'models/Dog.php';
         // Create an instance of the Dog subclass
         $dog = new Dog("Buddy", 3);
         $data['message'] = $dog->speak();
