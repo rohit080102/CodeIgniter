@@ -65,8 +65,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 // $route['default_controller'] = 'StringLength';
 // $route['default_controller'] =  'WordCount';
 // $route['default_controller'] =  'StringFunctions';
-$route['default_controller'] =  'AnimalController';
+// $route['default_controller'] =  'AnimalController';
 // $route['default_controller'] =  'CarController';
+$route['default_controller'] =  'UserFormController';
 
 
 $route['404_override'] = '';
