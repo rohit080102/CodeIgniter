@@ -50,8 +50,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |		my-controller/my-method	-> my_controller/my_method
 */
 // $route['default_controller'] = 'welcome';
+
+
 // $route['default_controller'] = 'NumberCheck';
-$route['default_controller'] = 'DivisibilityCheck';
+// $route['default_controller'] = 'DivisibilityCheck';
+// $route['default_controller'] = 'DayName';
+// $route['default_controller'] = 'GradeEvaluator';
+// $route['default_controller'] = 'SumNaturalNumbers';
+// $route['default_controller'] = 'MultiplicationTable';
+// $route['default_controller'] = 'FactorialCalculator';
+// $route['default_controller'] = 'FibonacciSeries';
+$route['default_controller'] = 'StudentList';
 
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
