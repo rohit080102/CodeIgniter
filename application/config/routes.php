@@ -72,10 +72,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
 
-$route['default_controller'] = 'usercontroller';  // Optional: Set the default controller to 'usercontroller'
-$route['user'] = 'usercontroller/index';           // This maps 'user' to 'usercontroller/index'
-$route['usercontroller/save'] = 'usercontroller/save';  // This maps 'usercontroller/save' to 'save' method
-$route['usercontroller/display'] = 'usercontroller/display';  // This maps 'usercontroller/display' to 'display' method
+$route['default_controller'] = 'user';  // Optional: Set the default controller to 'usercontroller'
+// $route['user'] = 'usercontroller/index';           // This maps 'user' to 'usercontroller/index'
+// $route['usercontroller/save'] = 'usercontroller/save';  // This maps 'usercontroller/save' to 'save' method
+// $route['usercontroller/display'] = 'usercontroller/display';  // This maps 'usercontroller/display' to 'display' method
 $route['404_override'] = '';  // Keep this as an empty string
 $route['translate_uri_dashes'] = FALSE;  // Keep this as FALSE
 
