@@ -18,6 +18,24 @@ class User_model extends CI_Model {
         }
         return false;
     }
+
+	public function save_user($data) {
+        return $this->db->insert('users', $data);
+    }
+    public function get_users() {
+        return $this->db->get('users')->result();
+    }
+
+	public function get_user($id) {
+        return $this->db->get_where('users', ['id' => $id])->row();
+    }
+
+    public function update_user($id, $data) {
+        $this->db->where('id', $id);
+        return $this->db->update('users', $data);
+    }
+
+
 }
 
 ?>

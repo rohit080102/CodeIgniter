@@ -68,14 +68,24 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 // $route['default_controller'] =  'AnimalController';
 // $route['default_controller'] =  'CarController';
 // $route['default_controller'] =  'UserFormController';
-//$route['default_controller'] =  'ReflectionController';
+// $route['default_controller'] =  'ReflectionController';
+// $route['default_controller'] = 'user';  // Optional: Set the default controller to 'usercontroller'
+// $route['default_controller'] = 'usercontroller';   
+
+
+// $route['user'] = 'usercontroller';
+// $route['usercontroller/save'] = 'usercontroller/save';
+// $route['usercontroller/display'] = 'usercontroller/display';
+
+$route['usercontroller'] = 'usercontroller/index';
+$route['usercontroller/edit/(:num)'] = 'usercontroller/edit/$1';
+$route['usercontroller/update/(:num)'] = 'usercontroller/update/$1';
 
 
 
-$route['default_controller'] = 'user';  // Optional: Set the default controller to 'usercontroller'
-// $route['user'] = 'usercontroller/index';           // This maps 'user' to 'usercontroller/index'
-// $route['usercontroller/save'] = 'usercontroller/save';  // This maps 'usercontroller/save' to 'save' method
-// $route['usercontroller/display'] = 'usercontroller/display';  // This maps 'usercontroller/display' to 'display' method
+
+
+// This maps 'usercontroller/display' to 'display' method
 $route['404_override'] = '';  // Keep this as an empty string
 $route['translate_uri_dashes'] = FALSE;  // Keep this as FALSE
 
