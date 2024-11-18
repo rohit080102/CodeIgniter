@@ -10,10 +10,10 @@ class UserController extends CI_Controller {
     }
 
     public function index() {
+        // asdsa
         include_once APPPATH . 'models/User_model.php';
         $this->load->view('user_form');
 
-        
     }
 
     public function save() {
