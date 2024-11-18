@@ -7,6 +7,11 @@ class User extends CI_Controller {
         $this->load->library('session');
         $this->load->helper('cookie');
     }
+    public function index() {
+        include_once APPPATH . 'models/User_model.php';
+        $this->load->view('login');
+    }
+
     public function register() {
         // Load the registration view
         $this->load->view('register');

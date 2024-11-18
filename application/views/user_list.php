@@ -11,12 +11,17 @@
             <th>ID</th>
             <th>Name</th>
             <th>Email</th>
+			<th>Actions</th>
         </tr>
         <?php foreach ($users as $user): ?>
         <tr>
             <td><?php echo htmlspecialchars($user->id); ?></td>
             <td><?php echo htmlspecialchars($user->name); ?></td>
             <td><?php echo htmlspecialchars($user->email); ?></td>
+			<td>
+                <a href="<?php echo site_url('usercontroller/edit/' . $user->id); ?>">Edit</a>
+            </td>
+
         </tr>
         <?php endforeach; ?>
     </table>
