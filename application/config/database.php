@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
     'dsn'      => '',
-    'hostname' => 'localhost', // Replace with your hostname
+    'hostname' => 'localhost:3307', // Replace with your hostname
     'username' => 'root', // Replace with your database username
-    'password' => 'root', // Replace with your database password
-    'database' => 'ci_login_system',  // Replace with your database name
+    'password' => '', // Replace with your database password
+    'database' => 'user_info_db',  // Replace with your database name
     'dbdriver' => 'mysqli',
     'dbprefix' => '',
     'pconnect' => FALSE,
